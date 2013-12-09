@@ -32,10 +32,10 @@
 		275C9AEB185527AC00F8F7A0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		275C9AED185527AC00F8F7A0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		275C9AEF185527AC00F8F7A0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		275C9AF3185527AC00F8F7A0 /* TextViewBidiAttributes-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TextViewBidiAttributes-Info.plist"; sourceTree = "<group>"; };
+		275C9AF3185527AC00F8F7A0 /* UITextViewWritingDirection-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UITextViewWritingDirection-Info.plist"; sourceTree = "<group>"; };
 		275C9AF5185527AC00F8F7A0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		275C9AF7185527AC00F8F7A0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		275C9AF9185527AC00F8F7A0 /* TextViewBidiAttributes-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TextViewBidiAttributes-Prefix.pch"; sourceTree = "<group>"; };
+		275C9AF9185527AC00F8F7A0 /* UITextViewWritingDirection-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITextViewWritingDirection-Prefix.pch"; sourceTree = "<group>"; };
 		275C9AFA185527AC00F8F7A0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		275C9AFB185527AC00F8F7A0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		275C9AFE185527AC00F8F7A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -48,10 +48,10 @@
 		275C9B291855481C00F8F7A0 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		275C9B2A1855481C00F8F7A0 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		275C9B2B1855481C00F8F7A0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		275C9B2E1855481C00F8F7A0 /* MacTextViewBidiAttributes-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MacTextViewBidiAttributes-Info.plist"; sourceTree = "<group>"; };
+		275C9B2E1855481C00F8F7A0 /* NSTextViewWritingDirection-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NSTextViewWritingDirection-Info.plist"; sourceTree = "<group>"; };
 		275C9B301855481C00F8F7A0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		275C9B321855481C00F8F7A0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		275C9B341855481C00F8F7A0 /* MacTextViewBidiAttributes-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MacTextViewBidiAttributes-Prefix.pch"; sourceTree = "<group>"; };
+		275C9B341855481C00F8F7A0 /* NSTextViewWritingDirection-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSTextViewWritingDirection-Prefix.pch"; sourceTree = "<group>"; };
 		275C9B361855481C00F8F7A0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
 		275C9B381855481C00F8F7A0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		275C9B391855481C00F8F7A0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -133,10 +133,10 @@
 		275C9AF2185527AC00F8F7A0 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				275C9AF3185527AC00F8F7A0 /* TextViewBidiAttributes-Info.plist */,
+				275C9AF3185527AC00F8F7A0 /* UITextViewWritingDirection-Info.plist */,
 				275C9AF4185527AC00F8F7A0 /* InfoPlist.strings */,
 				275C9AF7185527AC00F8F7A0 /* main.m */,
-				275C9AF9185527AC00F8F7A0 /* TextViewBidiAttributes-Prefix.pch */,
+				275C9AF9185527AC00F8F7A0 /* UITextViewWritingDirection-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -166,10 +166,10 @@
 		275C9B2D1855481C00F8F7A0 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				275C9B2E1855481C00F8F7A0 /* MacTextViewBidiAttributes-Info.plist */,
+				275C9B2E1855481C00F8F7A0 /* NSTextViewWritingDirection-Info.plist */,
 				275C9B2F1855481C00F8F7A0 /* InfoPlist.strings */,
 				275C9B321855481C00F8F7A0 /* main.m */,
-				275C9B341855481C00F8F7A0 /* MacTextViewBidiAttributes-Prefix.pch */,
+				275C9B341855481C00F8F7A0 /* NSTextViewWritingDirection-Prefix.pch */,
 				275C9B351855481C00F8F7A0 /* Credits.rtf */,
 			);
 			name = "Supporting Files";
@@ -503,6 +503,7 @@
 				275C9B1C185527AC00F8F7A0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		275C9B511855481C00F8F7A0 /* Build configuration list for PBXNativeTarget "NSTextViewWritingDirection" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +512,7 @@
 				275C9B531855481C00F8F7A0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
