@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4511" systemVersion="13A603" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3745"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="KNL-4Y-fm3"/>
+                        <viewControllerLayoutGuide type="bottom" id="4Tn-p4-Pi2"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ANl-D3-r99">
+                                <rect key="frame" x="0.0" y="20" width="160" height="540"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <attributedString key="attributedText">
+                                    <fragment>
+                                        <string key="content">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                        <attributes>
+                                            <font key="NSFont" size="14" name="HelveticaNeue"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <connections>
+                                    <outlet property="delegate" destination="vXZ-lx-hvc" id="GNg-XC-GzU"/>
+                                </connections>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kYD-PM-Asp">
+                                <rect key="frame" x="160" y="20" width="160" height="548"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" red="0.90196079015731812" green="0.90196079015731812" blue="0.90196079015731812" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="ANl-D3-r99" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" id="5P2-tV-iRk"/>
+                            <constraint firstItem="4Tn-p4-Pi2" firstAttribute="top" secondItem="ANl-D3-r99" secondAttribute="bottom" constant="20" symbolic="YES" id="Eei-Kr-Fwd"/>
+                            <constraint firstItem="kYD-PM-Asp" firstAttribute="top" secondItem="KNL-4Y-fm3" secondAttribute="bottom" id="T7C-U1-Raj"/>
+                            <constraint firstItem="ANl-D3-r99" firstAttribute="width" secondItem="kYD-PM-Asp" secondAttribute="width" id="XjF-dp-HuQ"/>
+                            <constraint firstItem="ANl-D3-r99" firstAttribute="top" secondItem="KNL-4Y-fm3" secondAttribute="bottom" id="fTM-ZB-3vr"/>
+                            <constraint firstAttribute="trailing" secondItem="kYD-PM-Asp" secondAttribute="trailing" id="fUW-ok-itB"/>
+                            <constraint firstItem="4Tn-p4-Pi2" firstAttribute="top" secondItem="kYD-PM-Asp" secondAttribute="bottom" id="vTS-eY-McY"/>
+                            <constraint firstItem="kYD-PM-Asp" firstAttribute="leading" secondItem="ANl-D3-r99" secondAttribute="trailing" id="vqh-t9-V5X"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="editableTextView" destination="ANl-D3-r99" id="mLu-dQ-fUQ"/>
+                        <outlet property="readOnlyTextView" destination="kYD-PM-Asp" id="6dk-Te-3xH"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>
