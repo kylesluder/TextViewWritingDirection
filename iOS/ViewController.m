@@ -30,7 +30,9 @@
 
 - (void)viewDidLoad
 {
-    _editableTextView.attributedText = nil;
+    _editableTextView.attributedText = [[NSAttributedString alloc] init];
+    _editableTextView.typingAttributes = nil;
+    
     _editableTextView.text = [NSString defaultText];
     [self _updateReadOnlyTextView];
     

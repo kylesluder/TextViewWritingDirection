@@ -19,6 +19,8 @@
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
     [_editableTextView.textStorage setAttributedString:[[NSAttributedString alloc] init]];
+    _editableTextView.typingAttributes = nil;
+    
     _editableTextView.string = [NSString defaultText];
     [self _updateReadOnlyTextView];
 }
