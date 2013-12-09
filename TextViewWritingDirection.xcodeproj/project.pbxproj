@@ -16,10 +16,19 @@
 		275C9AFF185527AC00F8F7A0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 275C9AFD185527AC00F8F7A0 /* Main.storyboard */; };
 		275C9B02185527AC00F8F7A0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 275C9B01185527AC00F8F7A0 /* ViewController.m */; };
 		275C9B04185527AC00F8F7A0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 275C9B03185527AC00F8F7A0 /* Images.xcassets */; };
+		275C9B271855481C00F8F7A0 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 275C9B261855481C00F8F7A0 /* Cocoa.framework */; };
+		275C9B311855481C00F8F7A0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 275C9B2F1855481C00F8F7A0 /* InfoPlist.strings */; };
+		275C9B331855481C00F8F7A0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 275C9B321855481C00F8F7A0 /* main.m */; };
+		275C9B371855481C00F8F7A0 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 275C9B351855481C00F8F7A0 /* Credits.rtf */; };
+		275C9B3A1855481C00F8F7A0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 275C9B391855481C00F8F7A0 /* AppDelegate.m */; };
+		275C9B3D1855481C00F8F7A0 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 275C9B3B1855481C00F8F7A0 /* MainMenu.xib */; };
+		275C9B3F1855481C00F8F7A0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 275C9B3E1855481C00F8F7A0 /* Images.xcassets */; };
+		275C9B5A185549A200F8F7A0 /* NSAttributedString+WritingDirectionAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 275C9B59185549A200F8F7A0 /* NSAttributedString+WritingDirectionAttribute.m */; };
+		275C9B5B185549A200F8F7A0 /* NSAttributedString+WritingDirectionAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 275C9B59185549A200F8F7A0 /* NSAttributedString+WritingDirectionAttribute.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		275C9AE8185527AC00F8F7A0 /* TextViewBidiAttributes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TextViewBidiAttributes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		275C9AE8185527AC00F8F7A0 /* UITextViewWritingDirection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UITextViewWritingDirection.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		275C9AEB185527AC00F8F7A0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		275C9AED185527AC00F8F7A0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		275C9AEF185527AC00F8F7A0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -34,6 +43,22 @@
 		275C9B01185527AC00F8F7A0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		275C9B03185527AC00F8F7A0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		275C9B0A185527AC00F8F7A0 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		275C9B251855481C00F8F7A0 /* NSTextViewWritingDirection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NSTextViewWritingDirection.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		275C9B261855481C00F8F7A0 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
+		275C9B291855481C00F8F7A0 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		275C9B2A1855481C00F8F7A0 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		275C9B2B1855481C00F8F7A0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		275C9B2E1855481C00F8F7A0 /* MacTextViewBidiAttributes-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MacTextViewBidiAttributes-Info.plist"; sourceTree = "<group>"; };
+		275C9B301855481C00F8F7A0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		275C9B321855481C00F8F7A0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		275C9B341855481C00F8F7A0 /* MacTextViewBidiAttributes-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MacTextViewBidiAttributes-Prefix.pch"; sourceTree = "<group>"; };
+		275C9B361855481C00F8F7A0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		275C9B381855481C00F8F7A0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		275C9B391855481C00F8F7A0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		275C9B3C1855481C00F8F7A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		275C9B3E1855481C00F8F7A0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		275C9B58185549A200F8F7A0 /* NSAttributedString+WritingDirectionAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSAttributedString+WritingDirectionAttribute.h"; path = "Common/NSAttributedString+WritingDirectionAttribute.h"; sourceTree = "<group>"; };
+		275C9B59185549A200F8F7A0 /* NSAttributedString+WritingDirectionAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSAttributedString+WritingDirectionAttribute.m"; path = "Common/NSAttributedString+WritingDirectionAttribute.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,13 +72,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		275C9B221855481C00F8F7A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				275C9B271855481C00F8F7A0 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		275C9ADF185527AC00F8F7A0 = {
 			isa = PBXGroup;
 			children = (
-				275C9AF1185527AC00F8F7A0 /* TextViewBidiAttributes */,
+				275C9B571855494800F8F7A0 /* Common */,
+				275C9AF1185527AC00F8F7A0 /* iOS */,
+				275C9B2C1855481C00F8F7A0 /* Mac */,
 				275C9AEA185527AC00F8F7A0 /* Frameworks */,
 				275C9AE9185527AC00F8F7A0 /* Products */,
 			);
@@ -62,7 +97,8 @@
 		275C9AE9185527AC00F8F7A0 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				275C9AE8185527AC00F8F7A0 /* TextViewBidiAttributes.app */,
+				275C9AE8185527AC00F8F7A0 /* UITextViewWritingDirection.app */,
+				275C9B251855481C00F8F7A0 /* NSTextViewWritingDirection.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -74,11 +110,13 @@
 				275C9AED185527AC00F8F7A0 /* CoreGraphics.framework */,
 				275C9AEF185527AC00F8F7A0 /* UIKit.framework */,
 				275C9B0A185527AC00F8F7A0 /* XCTest.framework */,
+				275C9B261855481C00F8F7A0 /* Cocoa.framework */,
+				275C9B281855481C00F8F7A0 /* Other Frameworks */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		275C9AF1185527AC00F8F7A0 /* TextViewBidiAttributes */ = {
+		275C9AF1185527AC00F8F7A0 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
 				275C9AFA185527AC00F8F7A0 /* AppDelegate.h */,
@@ -89,7 +127,7 @@
 				275C9B03185527AC00F8F7A0 /* Images.xcassets */,
 				275C9AF2185527AC00F8F7A0 /* Supporting Files */,
 			);
-			path = TextViewBidiAttributes;
+			path = iOS;
 			sourceTree = "<group>";
 		};
 		275C9AF2185527AC00F8F7A0 /* Supporting Files */ = {
@@ -103,12 +141,55 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		275C9B281855481C00F8F7A0 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				275C9B291855481C00F8F7A0 /* AppKit.framework */,
+				275C9B2A1855481C00F8F7A0 /* CoreData.framework */,
+				275C9B2B1855481C00F8F7A0 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		275C9B2C1855481C00F8F7A0 /* Mac */ = {
+			isa = PBXGroup;
+			children = (
+				275C9B381855481C00F8F7A0 /* AppDelegate.h */,
+				275C9B391855481C00F8F7A0 /* AppDelegate.m */,
+				275C9B3B1855481C00F8F7A0 /* MainMenu.xib */,
+				275C9B3E1855481C00F8F7A0 /* Images.xcassets */,
+				275C9B2D1855481C00F8F7A0 /* Supporting Files */,
+			);
+			path = Mac;
+			sourceTree = "<group>";
+		};
+		275C9B2D1855481C00F8F7A0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				275C9B2E1855481C00F8F7A0 /* MacTextViewBidiAttributes-Info.plist */,
+				275C9B2F1855481C00F8F7A0 /* InfoPlist.strings */,
+				275C9B321855481C00F8F7A0 /* main.m */,
+				275C9B341855481C00F8F7A0 /* MacTextViewBidiAttributes-Prefix.pch */,
+				275C9B351855481C00F8F7A0 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		275C9B571855494800F8F7A0 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				275C9B58185549A200F8F7A0 /* NSAttributedString+WritingDirectionAttribute.h */,
+				275C9B59185549A200F8F7A0 /* NSAttributedString+WritingDirectionAttribute.m */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		275C9AE7185527AC00F8F7A0 /* TextViewBidiAttributes */ = {
+		275C9AE7185527AC00F8F7A0 /* UITextViewWritingDirection */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 275C9B1A185527AC00F8F7A0 /* Build configuration list for PBXNativeTarget "TextViewBidiAttributes" */;
+			buildConfigurationList = 275C9B1A185527AC00F8F7A0 /* Build configuration list for PBXNativeTarget "UITextViewWritingDirection" */;
 			buildPhases = (
 				275C9AE4185527AC00F8F7A0 /* Sources */,
 				275C9AE5185527AC00F8F7A0 /* Frameworks */,
@@ -118,9 +199,26 @@
 			);
 			dependencies = (
 			);
-			name = TextViewBidiAttributes;
+			name = UITextViewWritingDirection;
 			productName = TextViewBidiAttributes;
-			productReference = 275C9AE8185527AC00F8F7A0 /* TextViewBidiAttributes.app */;
+			productReference = 275C9AE8185527AC00F8F7A0 /* UITextViewWritingDirection.app */;
+			productType = "com.apple.product-type.application";
+		};
+		275C9B241855481C00F8F7A0 /* NSTextViewWritingDirection */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 275C9B511855481C00F8F7A0 /* Build configuration list for PBXNativeTarget "NSTextViewWritingDirection" */;
+			buildPhases = (
+				275C9B211855481C00F8F7A0 /* Sources */,
+				275C9B221855481C00F8F7A0 /* Frameworks */,
+				275C9B231855481C00F8F7A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NSTextViewWritingDirection;
+			productName = MacTextViewBidiAttributes;
+			productReference = 275C9B251855481C00F8F7A0 /* NSTextViewWritingDirection.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -132,7 +230,7 @@
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "Kyle Sluder";
 			};
-			buildConfigurationList = 275C9AE3185527AC00F8F7A0 /* Build configuration list for PBXProject "TextViewBidiAttributes" */;
+			buildConfigurationList = 275C9AE3185527AC00F8F7A0 /* Build configuration list for PBXProject "TextViewWritingDirection" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -145,7 +243,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				275C9AE7185527AC00F8F7A0 /* TextViewBidiAttributes */,
+				275C9AE7185527AC00F8F7A0 /* UITextViewWritingDirection */,
+				275C9B241855481C00F8F7A0 /* NSTextViewWritingDirection */,
 			);
 		};
 /* End PBXProject section */
@@ -161,6 +260,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		275C9B231855481C00F8F7A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				275C9B311855481C00F8F7A0 /* InfoPlist.strings in Resources */,
+				275C9B3F1855481C00F8F7A0 /* Images.xcassets in Resources */,
+				275C9B371855481C00F8F7A0 /* Credits.rtf in Resources */,
+				275C9B3D1855481C00F8F7A0 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -168,9 +278,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				275C9B5A185549A200F8F7A0 /* NSAttributedString+WritingDirectionAttribute.m in Sources */,
 				275C9B02185527AC00F8F7A0 /* ViewController.m in Sources */,
 				275C9AFC185527AC00F8F7A0 /* AppDelegate.m in Sources */,
 				275C9AF8185527AC00F8F7A0 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		275C9B211855481C00F8F7A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				275C9B3A1855481C00F8F7A0 /* AppDelegate.m in Sources */,
+				275C9B5B185549A200F8F7A0 /* NSAttributedString+WritingDirectionAttribute.m in Sources */,
+				275C9B331855481C00F8F7A0 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -191,6 +312,30 @@
 				275C9AFE185527AC00F8F7A0 /* Base */,
 			);
 			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		275C9B2F1855481C00F8F7A0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				275C9B301855481C00F8F7A0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		275C9B351855481C00F8F7A0 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				275C9B361855481C00F8F7A0 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		275C9B3B1855481C00F8F7A0 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				275C9B3C1855481C00F8F7A0 /* Base */,
+			);
+			name = MainMenu.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -274,9 +419,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "TextViewBidiAttributes/TextViewBidiAttributes-Prefix.pch";
-				INFOPLIST_FILE = "TextViewBidiAttributes/TextViewBidiAttributes-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "iOS/UITextViewWritingDirection-Prefix.pch";
+				INFOPLIST_FILE = "iOS/UITextViewWritingDirection-Info.plist";
+				PRODUCT_NAME = UITextViewWritingDirection;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -287,9 +432,54 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "TextViewBidiAttributes/TextViewBidiAttributes-Prefix.pch";
-				INFOPLIST_FILE = "TextViewBidiAttributes/TextViewBidiAttributes-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "iOS/UITextViewWritingDirection-Prefix.pch";
+				INFOPLIST_FILE = "iOS/UITextViewWritingDirection-Info.plist";
+				PRODUCT_NAME = UITextViewWritingDirection;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		275C9B521855481C00F8F7A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Mac/NSTextViewWritingDirection-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Mac/NSTextViewWritingDirection-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = NSTextViewWritingDirection;
+				SDKROOT = macosx;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		275C9B531855481C00F8F7A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Mac/NSTextViewWritingDirection-Prefix.pch";
+				INFOPLIST_FILE = "Mac/NSTextViewWritingDirection-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = NSTextViewWritingDirection;
+				SDKROOT = macosx;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -297,7 +487,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		275C9AE3185527AC00F8F7A0 /* Build configuration list for PBXProject "TextViewBidiAttributes" */ = {
+		275C9AE3185527AC00F8F7A0 /* Build configuration list for PBXProject "TextViewWritingDirection" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				275C9B18185527AC00F8F7A0 /* Debug */,
@@ -306,11 +496,19 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		275C9B1A185527AC00F8F7A0 /* Build configuration list for PBXNativeTarget "TextViewBidiAttributes" */ = {
+		275C9B1A185527AC00F8F7A0 /* Build configuration list for PBXNativeTarget "UITextViewWritingDirection" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				275C9B1B185527AC00F8F7A0 /* Debug */,
 				275C9B1C185527AC00F8F7A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		275C9B511855481C00F8F7A0 /* Build configuration list for PBXNativeTarget "NSTextViewWritingDirection" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				275C9B521855481C00F8F7A0 /* Debug */,
+				275C9B531855481C00F8F7A0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
