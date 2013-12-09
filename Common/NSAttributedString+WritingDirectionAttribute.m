@@ -31,14 +31,17 @@
 
 - (NSAttributedString *)attributedStringWithVisibleWritingDirection;
 {
-    static id redColor;
+    static NSDictionary *redAttributes;
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
+        id redColor;
 #if TARGET_OS_IPHONE
         redColor = [UIColor redColor];
 #else
         redColor = [NSColor redColor];
 #endif
+        
+        redAttributes = @{NSForegroundColorAttributeName : redColor};
     });
     NSMutableAttributedString *result = [NSMutableAttributedString new];
     
@@ -48,6 +51,8 @@
         NSParagraphStyle *paragraphStyle = [self attribute:NSParagraphStyleAttributeName atIndex:searchRange.location longestEffectiveRange:&paragraphStyleAttributeRange inRange:searchRange];
         
         if (paragraphStyle) {
+            [result appendAttributedString:[[NSAttributedString alloc] initWithString:@"⁋" attributes:redAttributes]];
+            
             NSString *writingDirectionStringRepresentation;
             switch (paragraphStyle.baseWritingDirection) {
                 case NSWritingDirectionNatural:
@@ -59,12 +64,17 @@
                 case NSWritingDirectionRightToLeft:
                     writingDirectionStringRepresentation = @"<RTL>";
                     break;
+                default:
+                    @throw [NSException exceptionWithName:NSInvalidArgumentException reason:@"Unknown writing direction" userInfo:nil];
             }
-            [result appendAttributedString:[[NSAttributedString alloc] initWithString:writingDirectionStringRepresentation attributes:@{NSForegroundColorAttributeName : redColor}]];
+            [result appendAttributedString:[[NSAttributedString alloc] initWithString:writingDirectionStringRepresentation attributes:redAttributes]];
         }
         
         [result appendAttributedString:[[NSAttributedString alloc] initWithString:[self.string substringWithRange:paragraphStyleAttributeRange]]];
-        [result appendAttributedString:[[NSAttributedString alloc] initWithString:@"¶" attributes:@{NSForegroundColorAttributeName : redColor}]];
+        
+        if (paragraphStyle) {
+            [result appendAttributedString:[[NSAttributedString alloc] initWithString:@"¶" attributes:redAttributes]];
+        }
         
         searchRange.location += paragraphStyleAttributeRange.length;
         searchRange.length -= paragraphStyleAttributeRange.length;
